@@ -1,0 +1,31 @@
+MY NOTES
+
+In this, Covid-19 data is accessible on Mohfw.gov.in by utilizing a python content 
+with Beautiful Soup and Plyer libraries naturally following 1 hour data of Covid-19 will 
+showed in windows notice framework
+
+steps:
+1:what will be the data source
+2:how can you show notification:plyer
+	windows notification has 2 things 1:title 2:message 3:appicon
+
+3:get data :mohfw.gov.in
+4:build soup,web data parse.
+definition:
+Beautiful Soup is a Python package for parsing HTML and XML documents.
+ It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping.
+ Prettify() function in BeautifulSoup will enable us to view how the tags are nested in the document.
+
+5:generate notification for states.
+
+
+
+
+
+
+issues:
+
+1:plyer package does not support jpg,png etc.. so convert  to ico extension
+
+
+
